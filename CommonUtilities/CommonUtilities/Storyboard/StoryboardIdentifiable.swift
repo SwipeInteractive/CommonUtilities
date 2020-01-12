@@ -12,13 +12,7 @@ import UIKit
 extension UIStoryboard {
     
     enum Storyboard: String {
-        case splash
-        case login
-        case gallery
-        case settings
         case main
-        case dataCapture
-
         var filename: String {
             return rawValue.capitalized
         }
